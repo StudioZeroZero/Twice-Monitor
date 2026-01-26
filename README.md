@@ -209,6 +209,8 @@ dietpi-config
 
 4. Repeat to fasten the 'Back Shell' to the 'Front Shell'.
 
+5. You can either leave the device standing as is, or cut a strong command strip along the extruded part of the back casing to mount on a wall.
+
 ## Congratulations!
 You have built yourself a neat automated monitor to display whatever you desire. I wonder what you'll decide to use yours for.
 
