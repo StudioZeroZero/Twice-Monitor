@@ -141,7 +141,7 @@ With this, you can now have your favorite be automatically ran on your monitor! 
 
 ## 🛠️ Setting up the ILI9341 Display
 
-1. We will need to wire the ILI9341 to the RPI, following the diagram accordingly. (You can use jumper cables if you are not comfortable with soldering!)
+1. Wire the ILI9341 to the RPI, following the diagram accordingly. (You can use jumper cables if you are not comfortable with soldering!)
 
 <img width="720" height="638" alt="Screenshot 2026-01-26 162405" src="https://github.com/user-attachments/assets/a74b4a7b-fe69-4050-8367-3b4c87dd39b2" />
 
@@ -190,12 +190,13 @@ dietpi-config
 
 ## 🛠️ Assembly
 
-1. Download, slice and 3D Print 'Front Shell' and 'Back Shell' Files:
+1. Download, slice and 3D print the following files:
 [Front Shell STEP File](cad/rpi_front_shell.STEP)
 [Back Shell STEP File](cad/rpi_back_shell.STEP)
+[Adapter STEP File](cad/rpi_spi_adapter.STEP)
 
 > [!TIP]
 > If you have never 3D Printed something before, this is the simplest way to go about printing these files:
 > Download Files -> Download and open Orca Slicer -> Drag in Step Files -> Click 'Slice" -> Save exported file to flashdrive -> plug into 3D printer and print
 
-2. Use M2 nuts and bolts to first assemble the chassis
+2. Use M2 nuts and bolts to first assemble the RPI to the 3D printed file 'rpi_spi_adapter'.
