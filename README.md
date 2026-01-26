@@ -190,7 +190,12 @@ dietpi-config
 
 ## 🛠️ Assembly
 
-1. Download and 3D Print 'Front Shell' and 'Back Shell' Files:
-Download the [3D Assembly STEP File](cad/rpi_back_shell.STEP)
+1. Download, slice and 3D Print 'Front Shell' and 'Back Shell' Files:
+[Front Shell STEP File](cad/rpi_front_shell.STEP)
+[Back Shell STEP File](cad/rpi_back_shell.STEP)
 
-2. Use M2 nuts and bolts to assemble the chassis
+> [!TIP]
+> If you have never 3D Printed something before, this is the simplest way to go about printing these files:
+> Download Files -> Download and open Orca Slicer -> Drag in Step Files -> Click 'Slice" -> Save exported file to flashdrive -> plug into 3D printer and print
+
+2. Use M2 nuts and bolts to first assemble the chassis
