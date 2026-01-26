@@ -191,6 +191,6 @@ dietpi-config
 ## 🛠️ Assembly
 
 1. Download and 3D Print 'Front Shell' and 'Back Shell' Files:
-Download the [3D Assembly STEP File](cad/rpi_back_shell.STEP.step)
+Download the [3D Assembly STEP File](cad/rpi_back_shell.STEP)
 
 2. Use M2 nuts and bolts to assemble the chassis
