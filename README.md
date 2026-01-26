@@ -143,8 +143,7 @@ With this, you can now have your favorite be automatically ran on your monitor! 
 
 1. We will need to wire the ILI9341 to the RPI, following the diagram accordingly. (You can use jumper cables if you are not comfortable with soldering!)
 
-- ILI9341 Display -> RPI Zero 2 Pin Number (If you aren't sure where the pin number is on the pi, look up an image for "Rasbperry Pi Zero 2 Board Layout)
-- If you are soldering, I would reccomend to remove the plastic off the headers with a pliers and then remove them with the soldering iron- made it much easier for me!
+<img width="720" height="638" alt="Screenshot 2026-01-26 162405" src="https://github.com/user-attachments/assets/a74b4a7b-fe69-4050-8367-3b4c87dd39b2" />
 
 #### ILI9341 Display -> RPI Zero 2 Wiring Diagram
 
@@ -160,7 +159,12 @@ With this, you can now have your favorite be automatically ran on your monitor! 
 | LED | 17 | Backlight |
 | MISO | 21 | GPIO 9 |
 
-2. Software for the RPI to communicate with the Display.
+> [!TIP]
+> If you are soldering, I would reccomend to remove the plastic off the headers with a pliers and then remove them with the soldering iron- made it much easier for me!
+
+2. Waveshare32 software for the RPI to communicate with the Display.
+
+
 
 ```
 
@@ -183,3 +187,10 @@ dietpi-config
 //Navigate to 'Display Options' -> 'Overscan' -> 'Disabled' -> 'Exit and Reboot'
 
 ```
+
+## 🛠️ Assembly
+
+1. Download and 3D Print 'Front Shell' and 'Back Shell' Files:
+Download the [3D Assembly STEP File](cad/twice_monitor_final.step)
+
+2. Use M2 nuts and bolts to assemble the chassis
