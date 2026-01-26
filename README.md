@@ -1,13 +1,12 @@
-# :heartpulse:Twice-Monitor:heartpulse: 
-A dedicated, low-profile ambient display system designed for seamless high-quality media integration.
+# 💓 Twice-Monitor 💓 A dedicated ambient media portal designed for seamless, high-quality content integration.
 
-AKA a device to automatically play my favorite variety show TTT (TIME TO TWICE) in the background :D
+The Twice-Monitor is an "ambient display" engineered to bring intentionality to desk and wall setups. Originally developed to automate the viewing experience of variety shows like Time to Twice, the device functions as a standalone, low-profile kiosk that autoplays curated media the moment it powers on.
 
-## About Me
+## Why Did I Make This?
 
-Hi! I'm surprised you found this, my name is Amit and I started this project because I am going to my very first TWICE concert in March and am so excited- but my room doesn't reflect that interest! They say your room should is a reflection of who you are, and so my idea was to have a piece of digital decoration that could show off anything I've been interested in :D
+Hi! I'm surprised you found this, my name is Amit and I started this project because I am going to my very first TWICE concert in March and am so excited- but my room really doesn't reflect that interest! They say your room should is a reflection of who you are, and so I had this idea to have this digital decoration that could show off anything I've been interested in :D
 
-It was much more difficult than I imagined to find the resources need to complete this project, but it's been so much fun having this little device accomany me while I work. And so- I want this page to be an all-in-one stop for anyone else wanting to make something like this (or a reminder for myself when I forget how I did any of this xD). To do so, I will be including everything- from things like purchasing the materials and programming, to wiring diagrams and 3D printing. 
+It took over a month to find the resources/non-retired drivers needed to complete this project, but now I get to enjoy having this little device with me while I work. While I love the device, it really shouldn't have taken that long to make. And so- I want this page to be an all-in-one stop for dedicated customizable screens on a budget. To do so, I will be including everything I worked on for this project- from things like purchasing the materials and programming, to wiring diagrams and 3D printing. 
 
 ## **Key Features:**
 - Kiosk-Mode Automation: Custom-configured Linux environment that bypasses the desktop GUI to launch directly into a Chromium-based kiosk mode for zero-latency interaction.
@@ -18,9 +17,13 @@ It was much more difficult than I imagined to find the resources need to complet
 
 - Universal Media Compatibility: Utilizing a custom Python/Bash backend to handle autoplay protocols for HTML5 video, YouTube, and dynamic web dashboards.
 
-# A Cohesive Guide to Setting Up A Youtube Auto Player Miniscreen
+# The Embedded Ambient Display: A Start-to-Finish Engineering Guide
+### An Updated Blueprint for Dedicated, Low-Power Media Kiosks (2026)
 
-## 🛠️ Bill of Materials (BOM)
+---
+> [!NOTE]
+> This guide uses my personal **"Twice-Monitor"** build as a case study, but the instructions and CAD files are 100% applicable to any dedicated screen project.
+## 💰 Bill of Materials (BOM)
 
 Tools/Equipment (*Most universities/maker spaces provide these at a low/zero cost*):
 - 3D Printer
@@ -42,7 +45,7 @@ Tools/Equipment (*Most universities/maker spaces provide these at a low/zero cos
 ---
 
 
-## 🛠️ Setting up the Pi
+## 💻 Setting up the Pi
 
 1. Download the Raspberry Pi Imager from the website and run the application.
 - https://www.raspberrypi.com/software/
@@ -94,7 +97,7 @@ https://www.youtube.com/watch?v=7RIbfPbxu8M&list=PL5hjFu4TjrW2_k2HiWjf7bdr4vQNzK
 
 ```
 
-5. On startup, sometimes Chromium will have pop ups that can't be removed without a mouse. To bypass "restore tabs" pop up on reboots, type the following line by line:
+7. On startup, sometimes Chromium will have pop ups that can't be removed without a mouse. To bypass "restore tabs" pop up on reboots, type the following line by line:
 
 ```
 //sudo nano is a command used to access/edit a file of a declared directory
@@ -106,7 +109,7 @@ sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' ~/.config/chromium/Defaul
 
 ```
 
-6. For launching in a clean fashion (no scroll bar, autoplay, no cursor, max screen visibility) we need to also edit this line in /var/lib/dietpi/dietpi-software/installed/chromium-autostart.sh
+8. For launching in a clean fashion (no scroll bar, autoplay, no cursor, max screen visibility) we need to also edit this line in /var/lib/dietpi/dietpi-software/installed/chromium-autostart.sh.
 
 ```
 sudo nano /var/lib/dietpi/dietpi-software/installed/chromium-autostart.sh
@@ -117,7 +120,7 @@ CHROMIUM_OPTS="--nocursor --no-memcheck--noerrdialogs --start-fullscreen --hide-
 
 ```
 
-7. To display properly, we also need to change the Chromium resolution in /boot/dietpi.txt:
+9. To display properly, we also need to change the Chromium resolution in /boot/dietpi.txt:
 
 ```
 sudo nano /boot/dietpi.txt
@@ -125,7 +128,7 @@ sudo nano /boot/dietpi.txt
 
 ```
 
-8. Now to get the actual video playback to fullscreen, we are going to use an extension called Enhancer for YouTube™ and enable the following settings:
+10. Now to get the actual video playback to fullscreen, we are going to use an extension called Enhancer for YouTube™ and enable the following settings:
 - Extension Link: https://chromewebstore.google.com/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle?hl=en-US&utm_source=ext_sidebar
 - Hide Shorts
 - Hide related videos
@@ -135,11 +138,11 @@ sudo nano /boot/dietpi.txt
 - Automatically expand the video player
 - Use the available space based on the viewport dimensions to expand the video player
 
-9. To get rid of pink video playback, disable graphic acceleration in chromium settings.
+11. To get rid of pink video playback, disable graphic acceleration in chromium settings.
 
 With this, you can now have your favorite be automatically ran on your monitor! Next, we will setup the SPI display for a more low-profile setup :)
 
-## 🛠️ Setting up the ILI9341 Display
+## 🔌 Setting up the ILI9341 Display
 
 1. Wire the ILI9341 to the RPI, following the diagram accordingly. (You can use jumper cables if you are not comfortable with soldering!)
 
@@ -163,8 +166,6 @@ With this, you can now have your favorite be automatically ran on your monitor! 
 > If you are soldering, I would reccomend to remove the plastic off the headers with a pliers and then remove them with the soldering iron- made it much easier for me!
 
 2. Waveshare32 software for the RPI to communicate with the Display.
-
-
 
 ```
 
@@ -191,12 +192,34 @@ dietpi-config
 ## 🛠️ Assembly
 
 1. Download, slice and 3D print the following files:
-[Front Shell STEP File](cad/rpi_front_shell.STEP)
-[Back Shell STEP File](cad/rpi_back_shell.STEP)
-[Adapter STEP File](cad/rpi_spi_adapter.STEP)
+- [Front Shell STEP File](cad/rpi_front_shell.STEP)
+- [Back Shell STEP File](cad/rpi_back_shell.STEP)
+- [SPI Adapter STEP File](cad/rpi_spi_adapter.STEP)
+
+<img width="500" height="500" alt="angle 2" src="https://github.com/user-attachments/assets/bf98a281-6b02-47c5-81aa-f92a2c7f9e76" />
+<img width="500" height="500" alt="Screenshot 2026-01-26 171851" src="https://github.com/user-attachments/assets/57b9236e-87a5-45fb-a1e8-6c169679b0fe" />
 
 > [!TIP]
 > If you have never 3D Printed something before, this is the simplest way to go about printing these files:
 > Download Files -> Download and open Orca Slicer -> Drag in Step Files -> Click 'Slice" -> Save exported file to flashdrive -> plug into 3D printer and print
 
-2. Use M2 nuts and bolts to first assemble the RPI to the 3D printed file 'rpi_spi_adapter'.
+2. Use M2 nuts and bolts to first assemble the RPI to the 3D printed file 'rpi_spi_adapter' (Place an approiately sized M2 Bolt in through the top side, using a nut to fastening both the RPI and the SPI together).
+
+3. Insert the now fastened RPI and SPI into the 'Front Shell', repeating the same fastening process in the last step to connect the 'Front Shell' to the outer holes of the 'SPI Adapter'.
+
+4. Repeat to fasten the 'Back Shell' to the 'Front Shell'.
+
+## Congratulations!
+You have built yourself a neat automated monitor to display whatever you desire. I wonder what you'll decide to use yours for.
+
+## Future Iterations
+* **Portable Power (LiPo Integration):** Incorporate a Lithium Polymer battery and charging circuit  to transition from a tethered device to a portable ambient display.
+* **Tactile User Interface:** Integrate a rotary encoder for volume/brightness control and mechanical switches for physical "Play/Pause" and "Skip" functions.
+* **Unibody Enclosure:** Iterate the SOLIDWORKS design from a two-part shell to a minimalist, snap-fit unibody chassis with internal cable routing and hidden mounting points.
+* **Thermal Management:** Optimize the internal geometry to utilize a "Passive Chimney Effect," increasing airflow across the SoC without the need for active cooling (fans).
+* **Environmental Sensing:** Add a PIR motion sensor to toggle the display based on room occupancy, significantly reducing power consumption and extending the LCD backlight lifespan.
+* **Auto-Dimming:** Use a photoresistor (LDR) to automatically adjust screen brightness based on ambient light levels, ensuring the monitor remains non-intrusive at night.
+
+## 💖 Special Thanks
+* **JYP Entertainment / TWICE:** For the endless "Time to Twice" content that fueled this build.
+* **The DietPi Community:** For providing the lightweight OS that makes this project possible on affordable hardware.
