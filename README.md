@@ -1,14 +1,15 @@
-# 💓 Twice-Monitor 💓 A dedicated ambient media portal designed for seamless, high-quality content integration.
+# 💓 Twice Monitor 💓 | A Low-Profile Ambient Display 
+### An Updated Blueprint for Dedicated, Low-Power Media Kiosks (2026)
 
-The Twice-Monitor is an "ambient display" engineered to bring intentionality to desk and wall setups. Originally developed to automate the viewing experience of variety shows like Time to Twice, the device functions as a standalone, low-profile kiosk that autoplays curated media the moment it powers on.
+The Twice Monitor is an "ambient display" engineered to bring intentionality to desk and wall setups. Originally developed to automate the viewing experience of variety shows like Time to Twice, the device functions as a standalone, low-profile kiosk that autoplays curated media the moment it powers on.
 
-## Why Did I Make This?
+### Why Did I Make This?
 
 Hi! I'm surprised you found this, my name is Amit and I started this project because I am going to my very first TWICE concert in March and am so excited- but my room really doesn't reflect that interest! They say your room should is a reflection of who you are, and so I had this idea to have this digital decoration that could show off anything I've been interested in :D
 
 It took over a month to find the resources/non-retired drivers needed to complete this project, but now I get to enjoy having this little device with me while I work. While I love the device, it really shouldn't have taken that long to make. And so- I want this page to be an all-in-one stop for dedicated customizable screens on a budget. To do so, I will be including everything I worked on for this project- from things like purchasing the materials and programming, to wiring diagrams and 3D printing. 
 
-## **Key Features:**
+### **Key Features:**
 - Kiosk-Mode Automation: Custom-configured Linux environment that bypasses the desktop GUI to launch directly into a Chromium-based kiosk mode for zero-latency interaction.
 
 - Versatile Mounting: Designed with a lightweight footprint (approx. 80g / .2 lbs) optimized for non-destructive Command-strip wall mounting, balancing shear force requirements with thermal performance.
@@ -21,13 +22,11 @@ It took over a month to find the resources/non-retired drivers needed to complet
 <img width="400" height="400" alt="IMG_5129-fotor-20260126185451" src="https://github.com/user-attachments/assets/7a900a8b-ba0e-4309-90da-aa6147a484d5" />
 <img width="400" height="400" alt="IMG_5134-fotor-20260126185536" src="https://github.com/user-attachments/assets/5fe82bb7-fab6-4925-bc8e-68653ea117f6" />
 
-
-# The Embedded Ambient Display: A Start-to-Finish Engineering Guide
-### An Updated Blueprint for Dedicated, Low-Power Media Kiosks (2026)
+# A Start-to-Finish Engineering Guide to Ambient Displays 
 
 ---
 > [!NOTE]
-> This guide uses my personal **"Twice-Monitor"** build as a case study, but the instructions and CAD files are 100% applicable to any dedicated screen project.
+> This guide uses my personal **"Twice Monitor"** build as a case study, but the instructions and CAD files are 100% applicable to any dedicated screen project.
 ## 💰 Bill of Materials (BOM)
 
 Tools/Equipment (*Most universities/maker spaces provide these at a low/zero cost*):
@@ -39,14 +38,14 @@ Tools/Equipment (*Most universities/maker spaces provide these at a low/zero cos
 
 | Category | Item | Role | Value Choice | ~Price Range |
 | :--- | :--- | :--- | :--- | :--- |
-| **Compute** | Raspberry Pi Zero 2 | System Brain / Media Controller | Selected for optimal performance-to-price ratio. | 15 - $28$ |
-| **Display** | 2.4" IPS LCD Panel | Color 320x240, 2.8 inch, ILI9341 Controller | Sourced as a raw panel to avoid "branded" monitor markup. | 2 - $10 |
-| **Power** | Micro USB Cable | Stable current for Pi & Screen | High-efficiency rating to prevent thermal waste. + Desired cord Length | 1 - $5 |
+| **Compute** | Raspberry Pi Zero 2 | System Brain / Media Controller | Selected for optimal performance-to-price ratio. | %15 - $28 |
+| **Display** | 2.4" IPS LCD Panel | Color 320x240, 2.8 inch, ILI9341 Controller | Sourced as a raw panel to avoid "branded" monitor markup. | $2 - $10 |
+| **Power** | Micro USB Cable | Stable current for Pi & Screen | High-efficiency rating to prevent thermal waste. + Desired cord Length | $1 - $5 |
 | **Chassis** | PLA | Structural support | 3D Print file provided in this github to mount the Pi Zero 2 directly to the ILI9341 Display | Free Download |
 | **Mounting** | 3M Command Large Strips | Wall attachment | Apartment friendly mounting | ~$15 |
-| **Storage** | 16GB MicroSD Card (with adapter/sd card reader if you don't already have one) | OS & Script storage | High-speed (Class 10) for fast boot times at low cost. | 5 - $10 |
-| **Quality of Life Adapters (Optional if familiar with headless SSH setups)** | Mini HDMI -> HDMI adapter & Micro USB -> Type-A USB Adapter (to plug in a keyboard)| Temporary display and peripherals| For a one-time setup before we can control the Pi from our computer via SSH) | 5 - $10 |
-| **Wiring Troubleshooting** | RPI Zero 2 Header & Jumper Wires | Temporary tools for troubleshooting wiring problems | For a one-time setup before we can solder the wire directly | 5 - $10 |
+| **Storage** | 16GB MicroSD Card (with adapter/sd card reader if you don't already have one) | OS & Script storage | High-speed (Class 10) for fast boot times at low cost. | $5 - $10 |
+| **Quality of Life Adapters (Optional if familiar with headless SSH setups)** | Mini HDMI -> HDMI adapter & Micro USB -> Type-A USB Adapter (to plug in a keyboard)| Temporary display and peripherals| For a one-time setup before we can control the Pi from our computer via SSH) | $5 - $10 |
+| **Wiring Troubleshooting** | RPI Zero 2 Header & Jumper Wires | Temporary tools for troubleshooting wiring problems | For a one-time setup before we can solder the wire directly | $5 - $10 |
 ---
 
 
