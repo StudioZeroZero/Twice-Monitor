@@ -143,7 +143,7 @@ sudo nano /boot/dietpi.txt
 - Use the available space based on the viewport dimensions to expand the video player
 
 >[!IMPORTANT]
-> To get rid of pink video playback, disable graphic acceleration in chromium settings.
+> If you are only seeing pink video playback when your video boots up, you need to disable graphic acceleration in chromium settings!
 
 With this, you can now have your favorite be automatically ran on your monitor! Next, we will setup the SPI display for a more low-profile setup.
 
