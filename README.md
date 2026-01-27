@@ -168,7 +168,7 @@ With this, you can now have your favorite be automatically ran on your monitor! 
 | MISO | 21 | GPIO 9 |
 
 > [!TIP]
-> If you are soldering, I would reccomend to remove the plastic off the headers with a pliers and then remove them with the soldering iron- made it much easier for me!
+> If you are soldering, I would reccomend to first remove the plastic off the headers with a pliers and then remove the pins with a soldering iron- made it much easier for me!
 
 2. Waveshare32 software for the RPI to communicate with the Display.
 
