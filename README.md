@@ -201,8 +201,8 @@ dietpi-config
 - [Back Shell STEP File](cad/rpi_back_shell.STEP)
 - [SPI Adapter STEP File](cad/rpi_spi_adapter.STEP)
 
-<img width="500" height="500" alt="angle 2" src="https://github.com/user-attachments/assets/bf98a281-6b02-47c5-81aa-f92a2c7f9e76" />
-<img width="500" height="500" alt="Screenshot 2026-01-26 171851" src="https://github.com/user-attachments/assets/57b9236e-87a5-45fb-a1e8-6c169679b0fe" />
+<img width="400" height="400" alt="angle 2" src="https://github.com/user-attachments/assets/bf98a281-6b02-47c5-81aa-f92a2c7f9e76" />
+<img width="400" height="400" alt="Screenshot 2026-01-26 171851" src="https://github.com/user-attachments/assets/57b9236e-87a5-45fb-a1e8-6c169679b0fe" />
 
 > [!TIP]
 > If you have never 3D Printed something before, this is the simplest way to go about printing these files:
