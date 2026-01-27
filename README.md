@@ -217,7 +217,9 @@ dietpi-config
 5. You can either leave the device standing as is, or cut a strong command strip along the extruded part of the back casing to mount on a wall.
 
 ## Congratulations!
-You have built yourself a neat automated monitor to display whatever you desire. I wonder what you'll decide to use yours for.
+You have built yourself a neat automated monitor to display whatever you desire. What will you use yours for?
+
+![IMG_5086-fotor-2026012619618](https://github.com/user-attachments/assets/fee169b2-9019-4a0f-a553-c47aa5f3a30a)
 
 ## Future Iterations
 * **Portable Power (LiPo Integration):** Incorporate a Lithium Polymer battery and charging circuit  to transition from a tethered device to a portable ambient display.
