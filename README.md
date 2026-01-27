@@ -43,6 +43,7 @@ Tools/Equipment (*Most universities/maker spaces provide these at a low/zero cos
 | **Power** | Micro USB Cable | Stable current for Pi & Screen | High-efficiency rating to prevent thermal waste. + Desired cord Length | $1 - $5 |
 | **Chassis** | PLA | Structural support | 3D Print file provided in this github to mount the Pi Zero 2 directly to the ILI9341 Display | Free Download |
 | **Mounting** | 3M Command Large Strips | Wall attachment | Apartment friendly mounting | ~$15 |
+| **Fasteners** | M2 Nuts and Bolts Variety Pack (Different Lengths) | Fastening 3D Printed Parts | You can use fasteners you have laying around or buy some online for cheap | $5 |
 | **Storage** | 16GB MicroSD Card (with adapter/sd card reader if you don't already have one) | OS & Script storage | High-speed (Class 10) for fast boot times at low cost. | $5 - $10 |
 | **Quality of Life Adapters (Optional if familiar with headless SSH setups)** | Mini HDMI -> HDMI adapter & Micro USB -> Type-A USB Adapter (to plug in a keyboard)| Temporary display and peripherals| For a one-time setup before we can control the Pi from our computer via SSH) | $5 - $10 |
 | **Wiring Troubleshooting** (Optional if familiar with soldering) | RPI Zero 2 Header & Jumper Wires | Temporary tools for troubleshooting wiring problems | Useful to ensure everything is working correctly before we do any soldering | $5 - $10 |
@@ -101,7 +102,7 @@ https://www.youtube.com/watch?v=7RIbfPbxu8M&list=PL5hjFu4TjrW2_k2HiWjf7bdr4vQNzK
 
 ```
 
-7. On startup, sometimes Chromium will have pop ups that can't be removed without a mouse. To bypass "restore tabs" pop up on reboots, type the following line by line:
+7. On startup, sometimes Chromium will have pop-ups that can't be removed without a mouse. To bypass "restore tabs" pop up on reboots, type the following line by line:
 
 ```
 //sudo nano is a command used to access/edit a file of a declared directory
@@ -143,7 +144,7 @@ sudo nano /boot/dietpi.txt
 - Use the available space based on the viewport dimensions to expand the video player
 
 >[!IMPORTANT]
-> If you are only seeing pink video playback when your video boots up, you need to disable graphic acceleration in chromium settings!
+> If you are only seeing pink video playback when your video boots up, you need to disable graphic acceleration in your chromium settings!
 
 With this, you can now have your favorite be automatically ran on your monitor! Next, we will setup the SPI display for a more low-profile setup.
 
@@ -170,7 +171,7 @@ With this, you can now have your favorite be automatically ran on your monitor! 
 > [!TIP]
 > If you are soldering, I would reccomend to first remove the plastic off the headers with a pliers and then remove the pins with a soldering iron- made it much easier for me!
 
-2. Waveshare32 software for the RPI to communicate with the Display.
+2. Download the waveshare32 software for the RPI to communicate with the Display.
 
 ```
 
@@ -196,7 +197,7 @@ dietpi-config
 
 ## 🛠️ Assembly
 
-1. Download, slice and 3D print the following files:
+1. Download, slice, and 3D print the following files:
 - [Front Shell STEP File](cad/rpi_front_shell.STEP)
 - [Back Shell STEP File](cad/rpi_back_shell.STEP)
 - [SPI Adapter STEP File](cad/rpi_spi_adapter.STEP)
