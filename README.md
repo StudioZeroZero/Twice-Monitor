@@ -12,7 +12,7 @@ It took over a month to find the resources/non-retired drivers needed to complet
 ### **Key Features:**
 - Kiosk-Mode Automation: Custom-configured Linux environment that bypasses the desktop GUI to launch directly into a Chromium-based kiosk mode for zero-latency interaction.
 
-- Versatile Mounting: Designed with a lightweight footprint (~ 80g or 0.2 lbs) optimized for non-destructive Command-strip wall mounting, balancing shear force requirements with thermal performance.
+- Versatile Mounting: Designed with a lightweight footprint (~80g or 0.2 lbs) optimized for non-destructive Command-strip wall mounting, balancing shear force requirements with thermal performance.
 
 - Accessible Design: Optimized software to run perfectly on affordable, low-power hardware. Capability of smooth 1080p video playback and fast website loading without needing to buy a high-end display or a pricey Raspberry Pi 4.
 
@@ -38,7 +38,7 @@ Tools/Equipment (*Most universities/maker spaces provide these at a low/zero cos
 
 | Category | Item | Role | Value Choice | ~Price Range |
 | :--- | :--- | :--- | :--- | :--- |
-| **Compute** | Raspberry Pi Zero 2 | System Brain / Media Controller | Selected for optimal performance-to-price ratio. | %15 - $28 |
+| **Compute** | Raspberry Pi Zero 2 | System Brain / Media Controller | Selected for optimal performance-to-price ratio. | $15 - $28 |
 | **Display** | 2.4" IPS LCD Panel | Color 320x240, 2.8 inch, ILI9341 Controller | Sourced as a raw panel to avoid "branded" monitor markup. | $2 - $10 |
 | **Power** | Micro USB Cable | Stable current for Pi & Screen | High-efficiency rating to prevent thermal waste. + Desired cord Length | $1 - $5 |
 | **Chassis** | PLA | Structural support | 3D Print file provided in this github to mount the Pi Zero 2 directly to the ILI9341 Display | Free Download |
