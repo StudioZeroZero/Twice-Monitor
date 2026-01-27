@@ -3,9 +3,9 @@
 
 The Twice Monitor is an "ambient display" engineered to bring intentionality to desk and wall setups. Originally developed to automate the viewing experience of variety shows like Time to Twice, the device functions as a standalone, low-profile kiosk that autoplays curated media the moment it powers on.
 
-### Why Did I Make This?
+### About Me / Purpose
 
-Hi! I'm surprised you found this, my name is Amit and I started this project because I am going to my very first TWICE concert in March and am so excited- but my room really doesn't reflect that interest! They say your room should is a reflection of who you are, and so I had this idea to have this digital decoration that could show off anything I've been interested in :D
+Hi! I'm surprised you found this, my name is Amit and I started this project because I am going to my very first TWICE concert in March and am so excited- but my room really doesn't reflect that interest! They say your room should is a reflection of who you are, and so I had the idea to make a digital decoration that could show off anything I've been interested in recently.
 
 It took over a month to find the resources/non-retired drivers needed to complete this project, but now I get to enjoy having this little device with me while I work. While I love the device, it really shouldn't have taken that long to make. And so- I want this page to be an all-in-one stop for dedicated customizable screens on a budget. To do so, I will be including everything I worked on for this project- from things like purchasing the materials and programming, to wiring diagrams and 3D printing. 
 
@@ -142,9 +142,10 @@ sudo nano /boot/dietpi.txt
 - Automatically expand the video player
 - Use the available space based on the viewport dimensions to expand the video player
 
-11. To get rid of pink video playback, disable graphic acceleration in chromium settings.
+>[!IMPORTANT]
+> To get rid of pink video playback, disable graphic acceleration in chromium settings.
 
-With this, you can now have your favorite be automatically ran on your monitor! Next, we will setup the SPI display for a more low-profile setup :)
+With this, you can now have your favorite be automatically ran on your monitor! Next, we will setup the SPI display for a more low-profile setup.
 
 ## 🔌 Setting up the ILI9341 Display
 
