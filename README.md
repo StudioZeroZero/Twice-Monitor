@@ -7,7 +7,7 @@ The Twice Monitor is an "ambient display" engineered to bring intentionality to 
 
 Hi! I'm surprised you found this, my name is Amit and I started this project because I am going to my very first TWICE concert in March and am so excited- but my room really doesn't reflect that interest! They say your room should is a reflection of who you are, and so I had the idea to make a digital decoration that could show off anything I've been interested in recently.
 
-It took over a month to find the resources/non-retired drivers needed to complete this project, but now I get to enjoy having this little device with me while I work. While I love the device, it really shouldn't have taken that long to make. And so- I want this page to be an all-in-one stop for dedicated customizable screens on a budget. To do so, I will be including everything I worked on for this project- from things like purchasing the materials and programming, to wiring diagrams and 3D printing. 
+It took over a month to find the resources/non-retired drivers needed to complete this project, but now I get to enjoy having this little device with me while I work. While I love the device, it really shouldn't have taken that long to make. And so- I want this page to be an all-in-one stop for dedicated customizable screens on a budget. To do so, I will be including everything I worked on for this project- from the things like purchasing materials and programming, to the wiring diagrams and 3D printing. 
 
 ### **Key Features:**
 - Kiosk-Mode Automation: Custom-configured Linux environment that bypasses the desktop GUI to launch directly into a Chromium-based kiosk mode for zero-latency interaction.
