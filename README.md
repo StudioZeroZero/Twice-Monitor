@@ -18,8 +18,8 @@ It took over a month to find the resources/non-retired drivers needed to complet
 - Universal Media Compatibility: Utilizing a custom Python/Bash backend to handle autoplay protocols for HTML5 video, YouTube, and dynamic web dashboards.
 
 
-<img width="500" height="500" alt="IMG_5129-fotor-20260126185451" src="https://github.com/user-attachments/assets/7a900a8b-ba0e-4309-90da-aa6147a484d5" />
-<img width="500" height="500" alt="IMG_5134-fotor-20260126185536" src="https://github.com/user-attachments/assets/5fe82bb7-fab6-4925-bc8e-68653ea117f6" />
+<img width="400" height="400" alt="IMG_5129-fotor-20260126185451" src="https://github.com/user-attachments/assets/7a900a8b-ba0e-4309-90da-aa6147a484d5" />
+<img width="400" height="400" alt="IMG_5134-fotor-20260126185536" src="https://github.com/user-attachments/assets/5fe82bb7-fab6-4925-bc8e-68653ea117f6" />
 
 
 # The Embedded Ambient Display: A Start-to-Finish Engineering Guide
