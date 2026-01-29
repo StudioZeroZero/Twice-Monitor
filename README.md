@@ -5,9 +5,9 @@ The Twice Monitor is an "ambient display" engineered to bring intentionality to 
 
 ### About Me / Purpose
 
-Hi! My name is Amit and I started this project because I am going to my very first TWICE concert in March- but my room really doesn't reflect this interest of mine! They say your room should is a reflection of who you are, and so I had the idea to make a digital decoration that could show off anything I've been interested in recently.
+I’m Amit, a Mechanical Engineering student with a passion for bridging the gap between niche interests and high-end product design. With my first TWICE concert approaching, I wanted to create a digital artifact that reflected my interests while maintaining a clean, professional aesthetic in my workspace. They say your room should is a reflection of who you are, and so I had the idea to make a digital decoration that could show off anything I've been interested in recently.
 
-It took over a month to find the resources/non-retired drivers needed to complete this project, but now I get to enjoy having this little device with me while I work. While I love the device, it really shouldn't have taken that long to make. And so- I want this page to be an all-in-one stop for dedicated customizable screens on a budget. To do so, I will be including everything I worked on for this project- from the things like purchasing materials and programming, to the wiring diagrams and 3D printing. 
+During development, I found that the online resources for non-retired drivers and SPI display integration were often incomplete or outdated. What should have been a straightforward build became a month-long reverse-engineering challenge. I created this repository to serve as a comprehensive engineering blueprint. By open-sourcing my CAD files, wiring diagrams, and software configurations, I aim to lower the barrier to entry for others looking to build dedicated, budget-friendly ambient displays without the hours of confusion scrolling through forums from 5 years ago.
 
 ### **Key Features:**
 - Kiosk-Mode Automation: Custom-configured Linux environment that bypasses the desktop GUI to launch directly into a Chromium-based kiosk mode for zero-latency interaction.
