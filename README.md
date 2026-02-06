@@ -195,6 +195,10 @@ dietpi-config
 
 ```
 
+> [!TIP]
+> If you need to rotate the screen do the following!
+> sudo nano /boot/config.txt -> edit the following code: dtoverlay=waveshare32b:rotate=90 (adjust rotate value in intervals of 90 as you wish)
+
 ## 🛠️ Assembly
 
 1. Download, slice, and 3D print the following files:
