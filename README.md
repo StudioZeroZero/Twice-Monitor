@@ -1,4 +1,4 @@
-Twice Monitor | A Modular Ambient Display
+## Twice Monitor | A Modular Ambient Display
 ### An Updated Blueprint for Dedicated, Low-Power Media Kiosks (2026)
 
 The Twice Monitor is an "ambient display" engineered to bring intentionality to desk and wall setups. Originally developed to automate the viewing experience of variety shows like Time to Twice, the device functions as a standalone, low-profile kiosk that autoplays curated media the moment it powers on.
