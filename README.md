@@ -57,7 +57,12 @@ Tools/Equipment (*Most universities/maker spaces provide these at a low/zero cos
 
 2. Select Diet Pi OS (OS -> "Other general-purpose OS" -> DietPi).
 
-3. Insert SD card and select it as the the desired storage device. Flash the SD card.
+3. Insert SD card and select it as the the desired storage device. Flash the SD card. 
+
+> [!NOTE]
+> Default Login
+> User: root
+> Password: pass
  
 4. After flashing, we need to enable Wi-Fi (dietpi.txt). While the SD card is still in your PC, open the card's folder and edit these two files:
 
