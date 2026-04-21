@@ -205,6 +205,18 @@ dietpi-config
 > [!TIP]
 > If you need to rotate the screen do the following!
 > sudo nano /boot/config.txt -> edit the following code: dtoverlay=waveshare32b:rotate=90 (adjust rotate value in intervals of 90 as you wish)
+> 
+
+>[!TIP]
+> If you are SSHing and are tired of logging in everytime:
+> On Device you are SSHing with:
+```
+ssh-keygen -t ed25519
+## Replace 'root' with your username and 'XX' with your IP
+cat ~/.ssh/id_ed25519.pub | ssh root@192.168.1.XX "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+## SSH like normal and should be login free!
+ssh root@192.168.1.XX
+```
 
 ## 🛠️ Assembly
 
